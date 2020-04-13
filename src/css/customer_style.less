@@ -1,0 +1,38 @@
+@import "palette";
+
+
+.customer_info{
+  background: transparent;
+  border: 2px solid @font-main-color;
+}
+
+.customer_info::placeholder{
+  color: @font-main-color;
+}
+
+.confirm__button {
+  width: 40%;
+  color: @font-main-color;
+  background: @continue-button-color;
+  font-family: 'Source Sans Pro', serif;
+  border-radius: 16px;
+}
+
+.cancel__button{
+  width: 40%;
+  color: @font-main-color;
+  background: @back-button-color;
+  font-family: 'Source Sans Pro', serif;
+  border-radius: 16px;
+}
+
+@media (max-width: 767px) {
+  .confirm__button{
+    width: 75%;
+  }
+
+  .cancel__button{
+    width: 75%;
+  }
+}
+

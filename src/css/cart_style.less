@@ -1,0 +1,75 @@
+@import "palette";
+
+@button-border-radius: 16px;
+
+.cart__image {
+  width: 17rem;
+  height: 17rem;
+  margin-left: 1rem;
+}
+
+.purchase__info {
+  font-family: 'Source Sans Pro', serif;
+  color: @font-main-color;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.price__info {
+  color: @font-main-color;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 2rem;
+}
+
+.back__button{
+  background: @back-button-color;
+  color: @font-main-color;
+  border-radius: @button-border-radius;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1rem;
+}
+
+.back__button:active{
+  color: @font-main-color;
+}
+
+.back__button:visited{
+  color: @font-main-color;
+}
+
+.continue__button{
+  color: @font-main-color;
+  border-radius: @button-border-radius;
+  background: @continue-button-color;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.continue__button:active{
+  color: @font-main-color;
+}
+.continue__button:visited{
+  color: @font-main-color;
+}
+
+@media (max-width: 767px) {
+  .vinyl__info {
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .vinyl__info {
+    margin-bottom: 11.8rem;
+  }
+
+}
+
+#cart__message {
+  font-family: 'Source Sans Pro', serif;
+  color: @font-main-color;
+  font-size: 2.7rem;
+}
+
