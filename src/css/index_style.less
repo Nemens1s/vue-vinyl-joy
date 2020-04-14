@@ -1,15 +1,14 @@
 @import "palette";
 
-
-.vinyl__card {
-  background: transparent;
+#vinyl__record {
   border: none;
 }
-
 
 .record__info {
   color: @font-main-color;
   font-family: 'Source Sans Pro', serif;
+  background: @body-color;
+  border: none;
 }
 
 .record__info a {
@@ -20,4 +19,18 @@
 
 .record__info a:active {
   color: @font-main-color;
+}
+
+.record__image {
+  max-width: 100%;
+  max-height:  100%;
+}
+
+
+.button__add{
+  background: transparent;
+  color: @font-main-color;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1.7rem;
+  border: none;
 }
