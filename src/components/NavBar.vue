@@ -17,7 +17,7 @@
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="ml-auto nav__links text-right">
                     <b-nav-item to="/">CATALOGUE</b-nav-item>
-                    <b-nav-item to="Cart">CART</b-nav-item>
+                    <b-nav-item to="cart">CART</b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>

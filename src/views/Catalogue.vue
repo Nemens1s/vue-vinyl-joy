@@ -18,7 +18,7 @@
 <script>
     import Record from "../components/Record"
     import _ from 'lodash'
-    require("@/css/common.css");
+    require("../assets/css/common.css");
     export default {
         props: ['records'],
         components: {

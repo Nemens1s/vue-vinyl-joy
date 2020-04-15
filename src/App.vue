@@ -16,8 +16,11 @@ export default {
   },
   methods: {
     addToCart(title){
-      this.cart.push(this.records.filter(r => r.title === title));
-      console.log(this.cart);
+      for(let i = 0; i < this.records.length; i++){
+        if (this.records[i].title === title){
+          this.cart.push(this.records[i]);
+        }
+      }
     }
   },
   data() {
@@ -38,7 +41,13 @@ export default {
           'price' : 25,
           'url' : "https://d8mkdcmng3.imgix.net/3782/586566.png?auto=format&bg=0FFF&fit=fill&h=600&q=100&w=600&s=d1b119d71f592980ec46b929d11ae48c"
         },
-
+        {
+          'id' : 2,
+          'title': 'Sergent Pepper',
+          'band' : 'The Beatles',
+          'price' : 25,
+          'url' : "https://d8mkdcmng3.imgix.net/3782/586566.png?auto=format&bg=0FFF&fit=fill&h=600&q=100&w=600&s=d1b119d71f592980ec46b929d11ae48c"
+        },
 
       ],
     }
