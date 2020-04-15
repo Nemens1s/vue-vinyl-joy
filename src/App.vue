@@ -55,6 +55,5 @@ export default {
 
 
 }
-require("@/css/common.css");
+require("@/css/common.css")
 </script>
-

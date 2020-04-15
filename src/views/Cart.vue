@@ -30,8 +30,9 @@
 
         </div>
 
-        <div v-else>
-            no items
+        <div v-else class="window__fullsize justify-content-center">
+            <h2 class="text-center">Seems like your cart is empty</h2>
+            <h3 class="text-center">Go and find some awesome records </h3>
         </div>
     </div>
 </template>
@@ -47,7 +48,6 @@
         }
     }
 </script>
-<style scoped>
-    @import "../assets/css/common.css";
-    @import "../assets/css/cart_style.css";
+<style scoped  src="../css/cart_style.css">
+
 </style>

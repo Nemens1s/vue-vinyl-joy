@@ -18,7 +18,6 @@
 <script>
     import Record from "../components/Record"
     import _ from 'lodash'
-    require("../assets/css/common.css");
     export default {
         props: ['records'],
         components: {
@@ -37,3 +36,6 @@
 
     }
 </script>
+<style scoped  src="../css/index_style.css">
+
+</style>

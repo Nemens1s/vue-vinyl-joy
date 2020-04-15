@@ -80,32 +80,10 @@
 </template>
 
 <script>
-    require("../assets/css/customer_style.css");
     export default {
         name: "Customer"
     }
 </script>
-<style scoped>
-    /*@import "../assets/css/cart_style.css";*/
-    /*.customer_info{*/
-    /*    background: transparent;*/
-    /*    border: 2px solid #E5DCCA;*/
-    /*}*/
-    /*.customer_info::placeholder{*/
-    /*    color: #E5DCCA;*/
-    /*}*/
-    /*.confirm__button {*/
-    /*    width: 40%;*/
-    /*    color: #E5DCCA;*/
-    /*    background: #17742C;*/
-    /*    font-family: 'Source Sans Pro', serif;*/
-    /*    border-radius: 16px;*/
-    /*}*/
-    /*.cancel__button{*/
-    /*    width: 40%;*/
-    /*    color: #E5DCCA;*/
-    /*    background: #7E0F0F;*/
-    /*    font-family: 'Source Sans Pro', serif;*/
-    /*    border-radius: 16px;*/
-    /*}*/
+<style scoped  src="../css/customer_style.css">
+
 </style>

@@ -15,10 +15,10 @@
 </template>
 
 <script>
-    require("@/css/index_style.css");
-    require("@/css/common.css");
-
     export default {
         props: ['item'],
     }
 </script>
+<style scoped  src="../css/index_style.css">
+
+</style>

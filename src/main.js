@@ -5,6 +5,7 @@ import Catalogue from './views/Catalogue'
 import Cart from './views/Cart'
 import Customer from "./views/Customer";
 import {BootstrapVue, BootstrapVueIcons} from 'bootstrap-vue'
+import Finish from "./views/Finish";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
@@ -31,6 +32,11 @@ const router = new Router({
             name: "customer",
             component: Customer
         },
+        {
+            path: '/finish',
+            name: "finish",
+            component: Finish
+        }
 
     ]
 

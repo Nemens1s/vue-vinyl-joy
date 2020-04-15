@@ -24,6 +24,6 @@
     </div>
 </template>
 
-<script>
-    require("@/css/common.css");
-</script>
+<style src="../css/common.css" scoped>
+
+</style>
