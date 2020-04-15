@@ -1,0 +1,44 @@
+[
+  {
+    "title": "De Mysteriis Dom Sathanas",
+    "band": "Mayhem",
+    "price": 20,
+    "url": "https://upload.wikimedia.org/wikipedia/ru/c/ce/De_Mysteriis_Dom_Sathanas.jpg"
+  },
+  {
+    "title": "Sergeant Pepper",
+    "band": "The Beatles",
+    "price": 25,
+    "url": "https://d8mkdcmng3.imgix.net/3782/586566.png?auto=format&bg=0FFF&fit=fill&h=600&q=100&w=600&s=d1b119d71f592980ec46b929d11ae48c"
+  },
+  {
+    "title": "Meliora",
+    "band" : "Ghost",
+    "price" : 19,
+    "url" : "https://img.discogs.com/1jOHfBMoXCZti4rL2eGy4-aiVu0=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-12805660-1542382236-7374.jpeg.jpg"
+  },
+  {
+    "title": "Prequelle",
+    "band" : "Ghost" ,
+    "price" : 20,
+    "url" : "https://cdn.shopify.com/s/files/1/1059/2286/products/Ghost_Prequelle_36067af9-2735-45ef-8ad8-c458056d9b61_800x.jpg?v=1535484287"
+  },
+  {
+    "title": "Black Waltz" ,
+    "band" : "Avatar",
+    "price" : 27,
+    "url" : "https://upload.wikimedia.org/wikipedia/en/6/64/Avatar_%28Black_Waltz_Album_Cover%29.jpg"
+  },
+  {
+    "title": "Ordinary Man" ,
+    "band" : "Ozzy Osbourne",
+    "price" : 29,
+    "url" : "https://meedia.apollo.ee/media/catalog/product/cache/2/image/17f82f742ffe127f42dca9de82fb58b1/0/1/0194397184624.jpg"
+  },
+  {
+    "title": "Hail The Apocalypse",
+    "band" : "Avatar",
+    "price" : 28,
+    "url" : "https://vinyla.com/files/products/avatar-hail-the-apocalypse.1280x1280.jpg?24d83d6f5eaf43ecaab79b91ff99f8d1"
+  }
+]
