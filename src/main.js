@@ -14,8 +14,20 @@ Vue.use(BootstrapVueIcons);
 Vue.use(Router);
 Vue.config.productionTip = false;
 
-const router = new Router({
+import { extend } from 'vee-validate';
+import { required, email } from 'vee-validate/dist/rules';
 
+extend('email', {
+    ...email,
+    message: "Email must be valid"
+});
+extend('required', {
+    ...required,
+    message: 'This field is required'
+});
+
+const router = new Router({
+    base: '/~ilniko/kasutajaliidesed/prax3/',
     routes: [
         {
             path: "/",
